@@ -10,14 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      # 1️⃣ 코드 체크아웃
+      - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true 
 
+      # 2️⃣ Snake 게임 생성
       - name: Generate Snake
         run: |
-          # 여기서 Snake 게임 이미지/파일 생성
+          # 예: node로 이미지 생성
           node generate-snake.js
 
+      # 3️⃣ 변경사항 커밋 & 푸시
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
@@ -26,4 +31,4 @@ jobs:
           git commit -m "Update Snake game" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 권한 자동 부여
