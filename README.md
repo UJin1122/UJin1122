@@ -6,7 +6,7 @@
 ---
 
 ## GitHub Stats
-![snake gif](https://raw.githubusercontent.com/UJin1122/UJin1122/main/dist/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/UJin1122/UJin1122/output/github-contribution-grid-snake.svg)
 
 
 
