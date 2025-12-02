@@ -26,9 +26,9 @@
 
 ### Tools
 ![VSCode](https://img.shields.io/badge/VISUAL_STUDIO_CODE-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&logo=postman&logoColor=white)<br>
-![Bruno](https://img.shields.io/badge/BRUNO-5C5CFF?style=for-the-badge&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+<!--![Postman](https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&logo=postman&logoColor=white)<br>-->
+<!--![Bruno](https://img.shields.io/badge/BRUNO-5C5CFF?style=for-the-badge&logoColor=white)-->
+<!--![MongoDB](https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)-->
 
 </td>
 <td width="60%" valign="top">
