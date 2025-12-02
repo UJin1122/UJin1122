@@ -10,16 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ 코드 체크아웃
+      # 1️⃣ 코드 체크아웃 (token 추가!)
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true 
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}   # 중요! 이걸로 push 권한 획득
 
       # 2️⃣ Snake 게임 생성
       - name: Generate Snake
         run: |
-          # 예: node로 이미지 생성
+          # 예: node로 이미지/파일 생성
           node generate-snake.js
 
       # 3️⃣ 변경사항 커밋 & 푸시
